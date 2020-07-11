@@ -1,0 +1,67 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.main-search{
+    text-align: center;
+    padding: 20px;
+    border-bottom:1px solid lightgray;
+}
+
+.main-search input{
+    border:1px solid gray;
+    color:black;
+    font-size:25px;
+    padding:10px;
+    font-weight:400;
+    border-radius:30px;
+}
+
+.main-search input:focus{
+    outline: none;
+}
+
+.car_item{
+    display: flex;
+    border: 1px solid lightgray;
+    margin:20px;
+}
+
+.car_item:hover{
+    box-shadow: 5px 5px 10px grey;
+}
+
+.car_item .left{
+    width:300px;
+}
+
+.car_item .left img{
+    width:100%;
+}
+
+.car_item .right{
+    flex-grow: 1;
+    padding:20px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color:rgb(29, 28, 28);
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.car_detail img{
+    width: 100%;
+}
+
+.car_detail h2{
+    margin: 0;
+    text-align: center;
+    color: rgb(16, 66, 107);
+}
+
+.car_detail h3{
+    color:rgb(13, 126, 179)
+}
